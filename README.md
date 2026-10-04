@@ -1,17 +1,30 @@
 # Selman Aksünger — personal academic website
 
-A bilingual (English/Turkish), static academic website designed for GitHub Pages.
+GitHub Pages-ready website.
 
-## Files
-- `index.html` — main website; language switcher is built in.
-- `cv.html` — concise CV page.
+## Main files
+- `index.html` — homepage
+- `cv.html` — CV
+- `content/publications.json` — publication list (the easiest file to update)
+- `images/selman.jpg` — profile photo
+- `robots.txt` + `sitemap.xml` — basic search-engine setup
+
+## How to update
+
+### Photo
+Upload your preferred photograph as `images/selman.jpg`. Replacing that same file later will update the website without changing the HTML.
+
+### New publication
+Open `content/publications.json` and add the new publication at the top. You can also send the publication details to ChatGPT and ask for the updated file.
+
+### Other changes
+You can send the new text, conference, position, link or other change to ChatGPT; the relevant file can be prepared without rebuilding the whole website.
 
 ## GitHub Pages
-1. Create a GitHub repository, e.g. `selmanaksunger.github.io`.
-2. Upload `index.html`, `cv.html`, and this README.
-3. In Settings → Pages, choose **Deploy from a branch**, then `main` / root.
-4. GitHub will publish the site at `https://selmanaksunger.github.io/`.
-5. Later, a custom domain such as `selmanaksunger.com` can be connected.
+Repository: `selmanaksunger.github.io`
+Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
 
-## Before launch
-Replace the portrait placeholder and the `#` profile links with the actual URLs for ORCID, Google Scholar and Istanbul University. Add a real CV PDF if desired.
+Site: https://selmanaksunger.github.io/
+
+## Later
+When ready, connect `selmanaksunger.com` as the custom domain.
